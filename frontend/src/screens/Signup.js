@@ -7,7 +7,7 @@ export default function Signup() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("https://go-food-minor-project.onrender.com/api/createuser", {
+        const response = await fetch("https://minor-project-gofood-2.onrender.com/api/createuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
